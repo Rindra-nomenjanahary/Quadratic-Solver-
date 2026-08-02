@@ -1,0 +1,33 @@
+ body{
+      font-family: Arial, sans-serif;
+      color:#e5e7eb;
+      background-color:#0f172a;
+     }
+ #aii{
+      border-radius:15px;
+      background-color:beige;
+      color:black;
+      border-color:transparent;
+      padding:10px;
+     }
+ #te{
+      border-radius:15px;
+      padding:10px;
+     }
+ #bt{
+      background-color:aqua;
+      color: black;
+      border-radius:15px;
+      width:40%;
+      padding:10px;
+      border-color:transparent;
+     }
+   a{
+      text-decoration:none;
+      color:white;
+     }
+footer {
+      margin-top:200px;
+      padding:3rem 0;
+      position:relative;
+}
