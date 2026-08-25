@@ -6,10 +6,14 @@ if(y){
 y.addEventListener('click',()=>{
    const maka=document.forms.nomb.value;
    const sep=maka.split(',');
+   const i=maka.length;
    const a=sep[0];
    const b=sep[1];
    const c=sep[2];
-
+if(i==0){
+document.getElementById('f').innerHTML=('saisir les nombres svp!');
+}
+    else{
 document.getElementById('f').innerHTML=(a+'x²'+b+'x'+c+'=0');
    const d=(b*b)-(4*(a*c));
 document.getElementById('del').innerHTML=('delta='+d);
@@ -27,5 +31,6 @@ document.getElementById('solu').innerHTML=('la solution est:'+'x='+x);
     const x2=(-b+r)/(2*a);
 document.getElementById('solu').innerHTML=('les solutions sont :'+'x1='+x1+' et '+'x2='+x2);
         }
+      }     
 })
 }
