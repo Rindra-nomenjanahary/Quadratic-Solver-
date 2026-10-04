@@ -1,6 +1,22 @@
 function aid() {
     window.alert('Saisissez les coefficients de votre équation du second degré,séparés par des virgules,puis cliquez sur <confirmer> pour obtenir la solution.Exemple:pour x²-4x+7=0, saisir: +1,-4,+7');
 }
+/*chargement eto*/
+const load=document.querySelector('#charge');
+const real=document.querySelector('#resol');
+if(real){
+real.style.display='none';
+let trans=0;
+function fiova(){
+trans++;
+if(trans==5){
+    load.style.display='none';
+    real.style.display='block';
+             }
+}
+setInterval(fiova,1000);
+}
+/*hatreto*/
 const y=document.getElementById('bt');
 if(y){
 y.addEventListener('click',()=>{
