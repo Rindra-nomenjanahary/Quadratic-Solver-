@@ -3,6 +3,21 @@ body{
       color:#e5e7eb;
       background-color:#0f172a;
      }
+      /*reto ny écrant de chargement*/
+ #cercle{
+      margin-top:150px;
+      border:5px solid white;
+      width:12%;
+      padding:52px 30px;
+      border-bottom: 5px dotted royalblue;
+      border-radius:999px;
+      animation:mio 1s linear infinite ;
+ }
+ @keyframes mio{
+      0%{transform:rotate(0deg); }
+      100%{transform:rotate(360deg);}
+ }
+ /*hatreto*/
  #aii{
       border-radius:15px;
       background-color:beige;
